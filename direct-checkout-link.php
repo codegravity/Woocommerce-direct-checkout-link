@@ -4,7 +4,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // --------- direck link to checkout -----------  //
 //  A direct marketing link emailed to the the client, which opens the checkout page with a preset product and client info pre-filled.
 //  https://www.your-domain.se/kassan/?add-to-cart=9522&direct_checkout=1&id=6945490&epost=client@client-domain.se.se&clientFirstName=Kalle&clientLastName=Svensson&clientPhone=0123456789
-//  
+//   Add to theme functions.php file.
   
 
 if(isset($_GET['direct_checkout'])) {
