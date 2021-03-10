@@ -5,6 +5,13 @@ if ( !defined( 'ABSPATH' ) ) exit;
 //  A direct marketing link emailed to the the client, which opens the checkout page with a preset product and client info pre-filled.
 //  https://www.your-domain.se/kassan/?add-to-cart=9522&direct_checkout=1&id=6945490&epost=client@client-domain.se.se&clientFirstName=Kalle&clientLastName=Svensson&clientPhone=0123456789
 //   Add to theme functions.php file.
+// add-to-cart = product id 
+// direct_checkout = 1  trigger function otherwise the normal checkout page will load.
+// id = independent client id not associated with woocommerce or wordpress (optional)
+// epost = client epost for the checkout form
+// clientFirstName  First name for the checkout form
+// clentLastName  Last name for the checkout form
+// clientPhone    Telephone for the checkout form
   
 
 if(isset($_GET['direct_checkout'])) {
